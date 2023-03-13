@@ -1,0 +1,106 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.footer p {
+    margin-top: 5px;
+    font-size: 15px;
+    color: black
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+
+.card {
+
+    padding: 5px 5px;
+
+
+}
+
+.row {
+    margin-left: -35px;
+    margin-right: -35px;
+}
+
+@media screen and (min-width:786px) {
+    .butons {
+        position: absolute;
+        right: 5%;
+    }
+
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.log{
+    color: red;
+}
+
+.curuser{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: rgba(0,0,0,.9);
+    
+}
+@media screen and(max-width:786px) {
+    .curuser{
+        float: left;
+    }
+    .logout{
+        position: relative;
+        top: 1%;
+    }
+}
+.curuser:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+    display: inline;
+}
+
+.logout{
+    background-color: transparent;
+    padding: 9px 5px;
+    border: 0px;
+    width: 20px;
+}
+.logout:hover{
+    opacity:0.7 ;
+}
